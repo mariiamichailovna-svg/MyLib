@@ -1,5 +1,9 @@
 <Solution>
-  <Project Path="MyApp/MyApp.csproj" />
-  <Project Path="MyLib.Tests/MyLib.Tests.csproj" />
+  <Project Path="MyApp/MyApp.csproj">
+    <Build Solution="Debug|*" Project="false" />
+  </Project>
+  <Project Path="MyLib.Tests/MyLib.Tests.csproj">
+    <Build Solution="Debug|*" Project="false" />
+  </Project>
   <Project Path="MyLib/MyLib.csproj" />
 </Solution>
