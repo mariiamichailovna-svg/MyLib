@@ -4,12 +4,12 @@ using System.Text;
 
 namespace MyLib;
 
-/// <summary>
-/// Утилиты для работы со строками.
-/// </summary>
+///
+/// Для работы со строками.
+///
 public static class StringTools
 {
-    /// <summary>Разворачивает строку задом наперёд.</summary>
+    /// Разворачивает строку задом наперёд
     /// <exception cref="ArgumentNullException">Если строка равна null.</exception>
     public static string Reverse(string s)
     {
@@ -17,7 +17,7 @@ public static class StringTools
         return new string(s.Reverse().ToArray());
     }
 
-    /// <summary>Считает количество слов (разделители: пробелы/таб/переносы).</summary>
+    /// Считает количество слов (разделители: пробелы/таб/переносы)
     /// <exception cref="ArgumentNullException">Если строка равна null.</exception>
     public static int WordCount(string s)
     {
